@@ -1,8 +1,4 @@
-tiengui=int(input('nhập số tiền gửi vào ngân hàng: '))
-tiennhan=int(input('nhập số tiền nhận ở ngân hàng: '))
-tien=tiengui
-sothang=0
-while tien<tiennhan:
-    tien=tien+0.0058*tiengui
-    sothang=sothang+1
-print('sau',sothang,'tháng,người đó sẽ nhận được',tiennhan)
+# Vẽ hình cây thông noel với số tầng bất kỳ
+n = int(input('Nhập số nguyên bất kỳ: '))
+for i in range(1,n+1):
+    print(' '*(n-i),' 1'*i)
